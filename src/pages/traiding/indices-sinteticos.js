@@ -1,24 +1,41 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+const Indices = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000,
+    easy:'ease-in-out'})
+    AOS.refresh();
 
-const indices = () => {
+}, [])
   return (
     <Layout>
         <main className='body'>
              <Baner titulo={'ÍNDICES SINTÉTICOS'}/>
-             <h2>Como crear nuestra cuenta de índices sintéticos y enlazarla al MT5?</h2>
-                <iframe className="video" src="https://www.youtube.com/embed/bmzNVbtxmtg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
+             <div className="blanco">
+                <h2>Como crear nuestra cuenta de índices sintéticos y enlazarla al MT5?</h2>
+                <iframe className="video" src="https://www.youtube.com/embed/bmzNVbtxmtg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div> 
+              <div className="negro" data-aos="fade-up">
                 <h2>Como depositar en Deriv</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/S186V3duA3w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="blanco">
                 <h2>Como tomar señales de índices sintéticos</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/1BmkUo_TkRk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="negro" data-aos="fade-up">
                 <h2>Como retirar mis fondos de Deriv</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/JQdeqfWVVhc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+
+             
         </main>
     </Layout>
   )
 }
 
-export default indices
+export default Indices

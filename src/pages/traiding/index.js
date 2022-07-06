@@ -1,22 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-const traiding = () => {
+
+const Traiding = () => {
+    useEffect(() => {
+        AOS.init({duration: 5000,
+        easy:'ease-in-out'})
+        AOS.refresh();
+
+    }, [])
   return (
     <Layout>
         <main className="body">
             <Baner titulo={'GUíA DE INICIO Traiding'}/>
-            <iframe className="video" src="https://www.youtube.com/embed/S5XPkkiINfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
+            <iframe className="video" src="https://www.youtube.com/embed/S5XPkkiINfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe> 
             <div className='plan-educativo'>
                 <h2>PLAN EDUCATIVO</h2>
                 <p>AQUÍ ENCONTRAS TU PLAN EDUCATIVO PASO A PASO, PARA QUE PUEDAS IR ORDENADAMENTE EN ESTE MARAVILLOSO MUNDO DE LOS MERCADOS FINANCIEROS.</p>
-                <a href="https://img1.wsimg.com/blobby/go/2f8d2b99-68b8-4c6e-bbce-9161368759ef/downloads/plan%20de%20estudio%20elite-comprimido.pdf?ver=1656006700855" className='button'>DESCARGAR PLAN</a>
+                <a href="https://img1.wsimg.com/blobby/go/2f8d2b99-68b8-4c6e-bbce-9161368759ef/downloads/plan%20de%20estudio%20elite-comprimido.pdf?ver=1656006700855" className='button' data-aos="fade-down">DESCARGAR PLAN</a>
             </div>
             <div className='tiposMercado'>
-                <h2>TIPOS DE MERCADOS</h2>
-                <div className='flex-1'>
+                <h2 data-aos="fade-left">TIPOS DE MERCADOS</h2>
+                <div className='flex-1' data-aos="fade-up">
                     <div>
                         <img src="https://vapor-us-west-1-1619076718.s3.us-west-1.amazonaws.com/b7b87067-b84c-43ec-b50c-9f7371f8c5b7ffac91fb2f12794dc3dd8eff35796190.png" alt="" />
                         <h3>ÍNDICES SINTÉTICOS</h3>
@@ -39,4 +48,4 @@ const traiding = () => {
   )
 }
 
-export default traiding
+export default Traiding

@@ -2,9 +2,12 @@ import * as React from "react"
 import Baner from "../components/Baner"
 import Layout from "../components/layout"
 import { Link } from 'gatsby'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const index = () => {
+
+
   return (
     <Layout>
       <main className="body"> 

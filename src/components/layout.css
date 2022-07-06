@@ -118,22 +118,38 @@
     color: white;
     padding: 1.5rem;
 }
-.tiposMercados{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom:7rem;
-}
-.tiposMercados .video {
-    width: 90%;
-    height: 500px;
-}
 .tiposMercados h2 {
     margin: 2rem 0;
     font-size: 2.2em;
     text-align: center;
     color: white;
+}
+.blanco {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding:4rem 1.5rem;
+}
+.blanco h2 {
+    color: #0b0b0b;
+    margin: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.negro {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.negro h2 {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
     .Baner {
@@ -155,4 +171,32 @@
         width: 300px;
         
       }
+      .blanco {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: row;
+        padding: 5rem 3rem;
+    }
+    .blanco .video {
+        width: 40rem;
+        height: 25rem;
+    }
+    .negro {
+        width: 100%;
+        display: flex ;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding:5rem 3rem;
+    }
+    .negro .video {
+        width: 40rem;
+        height: 25rem;
+        
+    }
+    .blanco h2 , .negro h2 {
+        width: 30rem;
+        font-size: 2em;
+    }
 }
