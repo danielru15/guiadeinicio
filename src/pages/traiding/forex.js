@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Forex = () => {
   useEffect(() => {
-    AOS.init({duration: 2000,
+    AOS.init({duration: 1500,
     easy:'ease-in-out'})
     AOS.refresh();
 

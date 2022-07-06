@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     background-color:#0b0b0b;
+    margin-bottom: 2rem;
 }
 .video {
     width: 80%;
@@ -140,7 +141,7 @@
 }
 .negro {
     width: 100%;
-    padding: 1.5rem;
+    padding:4rem 1.5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
