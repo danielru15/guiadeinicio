@@ -17,12 +17,19 @@ const Criptos = () => {
              <Baner titulo={'CRIPTOMONEDAS'}/>
              
               <div className='blanco'>
-                <h2>CONOCIENDO BINANCE</h2>
+              <div className='flex-center'>
+              <h2>CONOCIENDO BINANCE</h2>
+                <a href="https://accounts.binance.com/es-LA/register?ref=FGEUS97W" className='button'>Abrir cuenta</a>
+                </div>
                 <iframe className="video" src="https://www.youtube.com/embed/rsRWhRBNyKc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
               </div>
               <div className='negro' data-aos="fade-up">
-                <h2>Como tomar señales de futuros en criptomonedas</h2>
+                <h2>Como tomar señales <br/>de futuros en criptomonedas</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/NqLTdKOV-bw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="blanco" data-aos="fade-up">
+                <h2>PLAN EDUCATIVO</h2>
+                <iframe className="video" src="https://www.youtube.com/embed/ASzLGiHL0wI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
  
         </main>

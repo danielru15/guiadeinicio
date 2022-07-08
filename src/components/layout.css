@@ -33,7 +33,14 @@
     color: black;
 
   }
-  
+  .flex-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex-center .button {
+    color: black;
+  }
 .Baner {
     color: white;
     text-transform: uppercase;

@@ -17,11 +17,14 @@ const Forex = () => {
              <Baner titulo={'forex'}/>
              
               <div className='blanco' data-aos="fade-up"> 
-                <h2>Como crear y configurar nuestra cuenta de LIBERTEX</h2>
+              <div className='flex-center'>
+              <h2>Como crear y configurar nuestra cuenta de LIBERTEX (broker)</h2>
+                <a href="https://fwd.cx/d49o1slVuk1N" className='button'>Abrir cuenta</a>
+                </div>
                 <iframe className="video" src="https://www.youtube.com/embed/9-RY5UgtiUo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
               <div className="negro">
-                 <h2>Como depositar en LIBERTEX</h2>
+                 <h2>Como depositar en LIBERTEX (broker)</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/MlJ6d34jS1s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
                 <div className="blanco">
@@ -29,7 +32,7 @@ const Forex = () => {
                    <iframe className="video" src="https://www.youtube.com/embed/XThMLudtq20" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className="negro">
-                    <h2>Como retirar capital de LIBERTEX</h2>
+                    <h2>Como retirar capital de LIBERTEX (broker)</h2>
                     <iframe className="video" src="https://www.youtube.com/embed/N9xelCTpvj0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
             

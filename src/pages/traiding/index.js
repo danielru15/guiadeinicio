@@ -17,12 +17,13 @@ const Traiding = () => {
     <Layout>
         <main className="body">
             <Baner titulo={'GUíA DE INICIO Traiding'}/>
-            <iframe className="video" src="https://www.youtube.com/embed/S5XPkkiINfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe> 
+           {
+           /*  <iframe className="video" src="https://www.youtube.com/embed/S5XPkkiINfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe> 
             <div className='plan-educativo'>
-                <h2>PLAN EDUCATIVO</h2>
-                <p>AQUÍ ENCONTRAS TU PLAN EDUCATIVO PASO A PASO, PARA QUE PUEDAS IR ORDENADAMENTE EN ESTE MARAVILLOSO MUNDO DE LOS MERCADOS FINANCIEROS.</p>
-                <a href="https://img1.wsimg.com/blobby/go/2f8d2b99-68b8-4c6e-bbce-9161368759ef/downloads/plan%20de%20estudio%20elite-comprimido.pdf?ver=1656006700855" className='button' data-aos="fade-down">DESCARGAR PLAN</a>
+                <h2>Escoge tu mercado favorito</h2>
+          
             </div>
+            */}
             <div className='tiposMercado'>
                 <h2 data-aos="fade-left">TIPOS DE MERCADOS</h2>
                 <div className='flex-1' data-aos="fade-up">
@@ -32,7 +33,7 @@ const Traiding = () => {
                         <Link to={'/traiding/indices-sinteticos'} className="button">Comenzar</Link>
                     </div>
                     <div>
-                         <img src="https://i0.wp.com/blog.kubofinanciero.com/wp-content/uploads/2017/01/%C2%BFQue%CC%81-es-FOREX-y-cua%CC%81les-son-sus-desventajas--scaled.jpg?fit=2560%2C1331&ssl=1" alt="" />
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkUh0SmZwCRaRdXxY5cn-3ZL7Zmm4nZ2KsswoWDcmWvp_zgNGddDdGOQLb5huP_2mHNY&usqp=CAU" alt="" />
                         <h3>FOREX</h3>
                         <Link to={'/traiding/forex'} className="button">Comenzar</Link>
                     </div>
@@ -41,8 +42,30 @@ const Traiding = () => {
                         <h3>CRIPTOMONEDAS</h3>
                         <Link to={'/traiding/criptos'} className="button">Comenzar</Link>
                     </div>
+                    <div>
+                        <img src="https://www.invertirenbolsa.mx/wp-content/uploads/2019/04/opciones-binarias-1.jpg" alt="" />
+                        <h3>BINARIAS</h3>
+                        <Link to={'/traiding/binarias'} className="button">Comenzar</Link>
+                    </div>
                 </div>
             </div>
+            <div className='tiposMercado'>
+                <h2>CONOCE TUS APLICATIVOS</h2>
+                <div className='flex-1' data-aos="fade-up">
+                    <div>
+                        <img src="https://pbs.twimg.com/profile_images/1351147815901257731/gwB2MYEU_400x400.jpg" alt="" />
+                        <h3>MINDHUB</h3>
+                        <Link to={'/aplicativos/mindhub'} className="button">Comenzar</Link>
+                    </div>
+                    <div>
+                         <img src="https://i.ytimg.com/vi/hJM1ueNEtDk/maxresdefault.jpg" alt="" />
+                        <h3>wow</h3>
+                        <Link to={'/aplicativos/wow'} className="button">Comenzar</Link>
+                    </div>
+                </div>
+            </div>
+            
+
         </main>
     </Layout>
   )
