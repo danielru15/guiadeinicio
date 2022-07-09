@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React  from 'react'
 import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
 

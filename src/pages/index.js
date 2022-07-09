@@ -2,7 +2,6 @@ import * as React from "react"
 import Baner from "../components/Baner"
 import Layout from "../components/layout"
 import { Link } from 'gatsby'
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const index = () => {
@@ -14,7 +13,7 @@ const index = () => {
       <Baner
         titulo={'iNICIA TU GRAN AVENTURA'}
       />
-      <iframe className="video" src="https://www.youtube.com/embed/poWp9knzAfM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>  
+      {/* <iframe className="video" src="https://www.youtube.com/embed/poWp9knzAfM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>  */}
 
       <div className="flex-1">
         <div className="Marketing">
