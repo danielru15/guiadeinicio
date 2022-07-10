@@ -46,7 +46,7 @@ const VuelvetePro = () => {
 
              <div className="negro">
                 <h2>AGENDA PRODUCTIVA</h2>
-                <iframe className="video" src="https://www.youtube.com/embed/P6pA3D76jtA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="video" src="https://www.youtube.com/embed/u4XqQSAjHdo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div> 
               <div className="blanco" data-aos="fade-up">
                 <h2>DUPLICACIÓN </h2>

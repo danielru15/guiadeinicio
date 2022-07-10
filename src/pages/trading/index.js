@@ -30,23 +30,23 @@ const Traiding = () => {
                 <div>
                         <img src="https://www.portafolio.co/files/article_multimedia/uploads/2022/06/10/62a39d35ba7bd.jpeg" alt="" />
                         <h3>CRIPTOMONEDAS</h3>
-                        <Link to={'/traiding/criptos'} className="button">Comenzar</Link>
+                        <Link to={'/trading/criptos'} className="button">Comenzar</Link>
                     </div>
                     <div>
                         <img src="https://vapor-us-west-1-1619076718.s3.us-west-1.amazonaws.com/b7b87067-b84c-43ec-b50c-9f7371f8c5b7ffac91fb2f12794dc3dd8eff35796190.png" alt="" />
                         <h3>ÍNDICES SINTÉTICOS</h3>
-                        <Link to={'/traiding/indices-sinteticos'} className="button">Comenzar</Link>
+                        <Link to={'/trading/indices-sinteticos'} className="button">Comenzar</Link>
                     </div>
                     <div>
                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkUh0SmZwCRaRdXxY5cn-3ZL7Zmm4nZ2KsswoWDcmWvp_zgNGddDdGOQLb5huP_2mHNY&usqp=CAU" alt="" />
                         <h3>FOREX</h3>
-                        <Link to={'/traiding/forex'} className="button">Comenzar</Link>
+                        <Link to={'/trading/forex'} className="button">Comenzar</Link>
                     </div>
                   
                     <div>
                         <img src="https://www.invertirenbolsa.mx/wp-content/uploads/2019/04/opciones-binarias-1.jpg" alt="" />
                         <h3>BINARIAS</h3>
-                        <Link to={'/traiding/binarias'} className="button">Comenzar</Link>
+                        <Link to={'/trading/binarias'} className="button">Comenzar</Link>
                     </div>
                 </div>
             </div>
@@ -67,6 +67,11 @@ const Traiding = () => {
                          <img src="https://play-lh.googleusercontent.com/9TbuoO09ltAnt1on_hp7Xx_FHBHkSjLzunlip8YDYBxywQX40hgn7JLSN8kanm3Dww" alt="" />
                         <h3>Sense</h3>
                         <Link to={'/aplicativos/sense'} className="button">Comenzar</Link>
+                    </div>
+                    <div>
+                         <img src="https://play-lh.googleusercontent.com/9TbuoO09ltAnt1on_hp7Xx_FHBHkSjLzunlip8YDYBxywQX40hgn7JLSN8kanm3Dww" alt="" />
+                        <h3>Orackle</h3>
+                        <Link to={'/aplicativos/orackle'} className="button">Comenzar</Link>
                     </div>
                 </div>
             </div>

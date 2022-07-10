@@ -14,7 +14,10 @@ const Marketing = () => {
             <div className="blanco">
                 <h2>INDUCCIÓN</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/y4Dkoa5qZFc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              </div> 
+            </div> 
+            <div className='plan-educativo'>
+                <h2>Devuelvete a ver los QR</h2>
+            </div>
               <div className="negro" data-aos="fade-up">
                 <h2>Contacto lista caliente</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/SFx54h6kRQ8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

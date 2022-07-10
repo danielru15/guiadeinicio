@@ -25,9 +25,9 @@ const index = () => {
         </div>
         <div className="Traiding">
           <img src="https://img1.wsimg.com/isteam/ip/2f8d2b99-68b8-4c6e-bbce-9161368759ef/5be423fa9a3e31541678074.jpeg/:/cr=t:19.88%25,l:48.46%25,w:33.89%25,h:60.24%25/rs=w:730,h:730,cg:true,m" alt="traiding" />
-          <h2>Traiding</h2>
+          <h2>Trading</h2>
           <p>ACÁ INICIAMOS EN EL MUNDO DE LOS MERCADOS FINANCIEROS.</p>
-          <Link to={'/traiding'} className="button">Comenzar</Link>
+          <Link to={'/trading'} className="button">Comenzar</Link>
         </div>
       </div>
       </main>
