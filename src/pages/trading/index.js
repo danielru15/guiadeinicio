@@ -69,8 +69,8 @@ const Traiding = () => {
                         <Link to={'/aplicativos/sense'} className="button">Comenzar</Link>
                     </div>
                     <div>
-                         <img src="https://play-lh.googleusercontent.com/9TbuoO09ltAnt1on_hp7Xx_FHBHkSjLzunlip8YDYBxywQX40hgn7JLSN8kanm3Dww" alt="" />
-                        <h3>Orackle</h3>
+                         <img src="https://i.ytimg.com/vi/yduUxQDsDkI/maxresdefault.jpg" alt="" />
+                        <h3>Orakle</h3>
                         <Link to={'/aplicativos/orackle'} className="button">Comenzar</Link>
                     </div>
                 </div>
