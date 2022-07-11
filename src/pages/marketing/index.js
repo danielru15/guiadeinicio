@@ -18,7 +18,7 @@ const Marketing = () => {
             <div className='plan-educativo'>
                 <h2>Devuelvete a ver los QR</h2>
             </div>
-              <div className="negro" data-aos="fade-up">
+              <div className="negro" >
                 <h2>Contacto lista caliente</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/SFx54h6kRQ8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
@@ -26,23 +26,23 @@ const Marketing = () => {
                 <h2>Aprende a edificar para tu lanzamiento</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/uwtqDU-XMs8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-              <div className="negro" data-aos="fade-up">
+              <div className="negro">
                 <h2>Entiende tu negocio </h2>
                 <iframe className="video" src="https://www.youtube.com/embed/1-MQA2xU88A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-              <div className="blanco" data-aos="fade-up">
+              <div className="blanco">
                 <h2>REDES SOCIALES </h2>
                 <iframe className="video" src="https://www.youtube.com/embed/KiLy7TJXVoM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-              <div className="negro" data-aos="fade-up">
+              <div className="negro">
                 <h2>REDES SOCIALES 2</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/HEzUooV43Yc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-              <div className="blanco" data-aos="fade-up">
+              <div className="blanco">
                 <h2>PROSPECCIÓN REDES SOCIALES </h2>
                 <iframe className="video" src="https://www.youtube.com/embed/t5uaAqbQuVU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
-              <div className="negro" data-aos="fade-up">
+              <div className="negro">
                 <h2>Que hacer luego de tu lanzamiento? </h2>
                 <iframe className="video" src="https://www.youtube.com/embed/Z8WzloWrhwo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
