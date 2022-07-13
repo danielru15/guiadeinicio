@@ -19,7 +19,7 @@ const Marketing = () => {
            
             <div className='h2-center'>
               <h2> ¡¡ ESPERA !!</h2>
-              <h2>DEVUELVETE A VER LOS QRS</h2>
+              <h2 className='small'>DEVUELVETE A VER LOS QRS</h2>
             </div>
             
               <div className="negro" >
