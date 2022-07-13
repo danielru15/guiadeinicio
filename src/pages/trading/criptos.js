@@ -33,16 +33,18 @@ const Criptos = () => {
               </div>
               <div className='plan-educativo'>
                 <h2>Algunos basicos importantes</h2>
+                <div className='text-align'>
                 <p>A.<a href="https://wow.berules.com/academy-player/609210ce2a2050002016969a">Basicos 1</a></p>
                 <p>B.<a href="https://wow.berules.com/academy-player/6079b097774670001f04e782">Basicos 2</a></p>
                 <p>C.<a href="https://wow.berules.com/academy-player/60a405b98b02e9001f445e11">Binance</a></p>
-                <p>C.<a href="https://wow.berules.com/academy-player/5f7cbf9a462ee9001f64b67e">Usando Relic</a></p>
-                <h2>DEFI</h2> 
-                <p>A<a href="https://wow.berules.com/academy-player/60e6a3b54737fa001f98f276">DFI</a></p>
-                <p>B.<a href="https://wow.berules.com/academy-player/60a59ab76d29f4001fc0b4bc">Metamask, Trust</a></p>
+                <p>D.<a href="https://wow.berules.com/academy-player/5f7cbf9a462ee9001f64b67e">Usando Relic</a></p>
+                <p>E.<a href="https://wow.berules.com/academy-player/60e6a3b54737fa001f98f276">DEFI</a></p>
+                <p>F.<a href="https://wow.berules.com/academy-player/60a59ab76d29f4001fc0b4bc">Metamask,Trust</a></p>
+                </div>
             </div>
  
         </main>
+        
     </Layout>
   )
 }

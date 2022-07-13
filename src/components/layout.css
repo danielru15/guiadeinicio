@@ -13,8 +13,15 @@
     background-color:#0b0b0b;
     margin-bottom: 2rem;
 }
+.h2-center h2{
+    padding: 2rem 0;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    
+}
 .video {
-    width: 80%;
+    width: 100%;
     height: 300px
 }
 .button {
@@ -40,6 +47,13 @@
   }
   .flex-center .button {
     color: black;
+  }
+  .plan-educativo .text-align p{
+    text-align: left;
+  }
+.plan-educativo .text-align a{
+    color: #0b0b0b;
+    text-align: left;
   }
 .Baner {
     color: white;
@@ -113,6 +127,8 @@
     width: 90%;
     text-align: center;
     font-size: 1.6em;
+    color: #0b0b0b;
+    text-decoration: none;
 }
 .plan-educativo .button {
     color: #0b0b0b;
@@ -206,5 +222,10 @@
     .blanco h2 , .negro h2 {
         width: 30rem;
         font-size: 2em;
+    }
+    .h2-center h2 {
+        padding: 4rem;
+        color: white;
+        font-size: 3em;
     }
 }
