@@ -11,11 +11,14 @@ const Marketing = () => {
     <Layout>
         <main className="body">
             <Baner titulo={'Marketing'}/>
+            <iframe className="video" src="https://www.youtube.com/embed/ycLBPzfwlIw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
             <div className="blanco">
                 <h2>INDUCCIÓN</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/y4Dkoa5qZFc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div> 
+           
             <div className='h2-center'>
+              <h2> ¡¡ ESPERA !!</h2>
               <h2>DEVUELVETE A VER LOS QRS</h2>
             </div>
             
@@ -48,7 +51,7 @@ const Marketing = () => {
                 <iframe className="video" src="https://www.youtube.com/embed/Z8WzloWrhwo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
 
-            <div className='tiposMercado'>
+            <div className='tiposMercado blanco-1'>
                 <div className='flex-1' >
                     <div>
                          <img src="https://cronuts.digital/wp-content/uploads/2020/07/Business-Plan-bro.png" alt="" />

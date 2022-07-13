@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 
 
 const Traiding = () => {
+    
     useEffect(() => {
         AOS.init({duration: 5000,
         easy:'ease-in-out'})
@@ -28,7 +29,7 @@ const Traiding = () => {
                 <h2 data-aos="fade-left">TIPOS DE MERCADOS</h2>
                 <div className='flex-1' data-aos="fade-up">
                 <div>
-                        <img src="https://www.portafolio.co/files/article_multimedia/uploads/2022/06/10/62a39d35ba7bd.jpeg" alt="" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/drive-d75a7.appspot.com/o/IMG_2803%20(1).JPG?alt=media&token=2d0ea9fb-05ee-49c7-b450-770016c44fcf" alt="" />
                         <h3>CRIPTOMONEDAS</h3>
                         <Link to={'/trading/criptos'} className="button">Comenzar</Link>
                     </div>
@@ -38,13 +39,13 @@ const Traiding = () => {
                         <Link to={'/trading/indices-sinteticos'} className="button">Comenzar</Link>
                     </div>
                     <div>
-                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkUh0SmZwCRaRdXxY5cn-3ZL7Zmm4nZ2KsswoWDcmWvp_zgNGddDdGOQLb5huP_2mHNY&usqp=CAU" alt="" />
+                         <img src="https://firebasestorage.googleapis.com/v0/b/drive-d75a7.appspot.com/o/IMG_2810.JPG?alt=media&token=6c7d1229-1e6d-4659-9c8a-ade3dc1aec5f" alt="" />
                         <h3>FOREX</h3>
                         <Link to={'/trading/forex'} className="button">Comenzar</Link>
                     </div>
                   
                     <div>
-                        <img src="https://www.invertirenbolsa.mx/wp-content/uploads/2019/04/opciones-binarias-1.jpg" alt="" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/drive-d75a7.appspot.com/o/IMG_3341.JPG?alt=media&token=9add6c25-b815-4df9-9884-c0906a873a1c" alt="" />
                         <h3>BINARIAS</h3>
                         <Link to={'/trading/binarias'} className="button">Comenzar</Link>
                     </div>
@@ -59,7 +60,7 @@ const Traiding = () => {
                         <Link to={'/aplicativos/mindhub'} className="button">Comenzar</Link>
                     </div>
                     <div>
-                         <img src="https://i.ytimg.com/vi/hJM1ueNEtDk/maxresdefault.jpg" alt="" />
+                         <img src="https://i.ytimg.com/vi/hJM1ueNEtDk/maxresdefault.jpg" alt="" id='orakle'/>
                         <h3>wow</h3>
                         <Link to={'/aplicativos/wow'} className="button">Comenzar</Link>
                     </div>
@@ -69,9 +70,29 @@ const Traiding = () => {
                         <Link to={'/aplicativos/sense'} className="button">Comenzar</Link>
                     </div>
                     <div>
-                         <img src="https://i.ytimg.com/vi/yduUxQDsDkI/maxresdefault.jpg" alt="" />
+                         <img src="https://i.ytimg.com/vi/yduUxQDsDkI/maxresdefault.jpg" alt="" id='orakle'/>
                         <h3>Orakle</h3>
                         <Link to={'/aplicativos/orackle'} className="button">Comenzar</Link>
+                    </div>
+                    <div>
+                         <img src="https://play-lh.googleusercontent.com/X55NQ-3v03yMFo_8SRLw4QpWMp4OYkd643wmpBVZ5ez7pc5KQ_0nQsHMTyd7sq-ZO7c" alt="" />
+                        <h3>Shift</h3>
+                        <Link to={'/aplicativos/shift'} className="button">Comenzar</Link>
+                    </div>
+                    <div>
+                         <img src="https://play-lh.googleusercontent.com/8KTDUXqaKVczm8csr46WjvkgwIdtzlB0O5U1pAoRm4oHukeIjnhf6NR8U1T5B7HaOlQ" alt="" />
+                        <h3>NFX</h3>
+                        <Link to={'/aplicativos/nfx'} className="button">Comenzar</Link>
+                    </div>
+                    <div>
+                         <img src="https://play-lh.googleusercontent.com/QN8Kd-JRi4JxKGgQPZEyXIKxXJw2JYONfHwqHPtnAv6-R1OV8UNUIl-2HOQDKlsyuvfG" alt="" />
+                        <h3>relic</h3>
+                        <Link to={'/aplicativos/relic'} className="button">Comenzar</Link>
+                    </div>
+                    <div>
+                         <img src="https://play-lh.googleusercontent.com/zMSzko3lImP39mK68sBOA1w_2J-SXtfn6vn6ZH0tSIKFm1b19CHYz1sICE1EjaiEtt1G" alt="" />
+                        <h3>titan</h3>
+                        <Link to={'/aplicativos/titan'} className="button">Comenzar</Link>
                     </div>
                 </div>
             </div>

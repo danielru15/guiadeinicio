@@ -13,8 +13,12 @@
     background-color:#0b0b0b;
     margin-bottom: 2rem;
 }
-.h2-center h2{
+.h2-center {
+    width: 100%;
+    background-color: rgb(255, 78, 78);
     padding: 2rem 0;
+}
+.h2-center h2{
     color: white;
     font-size: 2em;
     text-align: center;
@@ -23,6 +27,23 @@
 .video {
     width: 100%;
     height: 300px
+}
+.blanco-1 {
+    width: 100%;
+    background-color: white;
+}
+.blanco-1 .flex-1 h3 {
+    color: #0b0b0b;
+}
+.blanco-1 .flex-1 .button {
+    color: #0b0b0b;
+    font-weight: bolder;
+}
+#orakle {
+    object-fit: cover;
+}
+#mk {
+    object-fit: cover;
 }
 .button {
     outline: 2px solid rgb(87, 87, 87);
@@ -180,7 +201,9 @@
         font-size: 3rem;
     }
     .video {
+        width: 70%;
         height: 700px;
+        margin-bottom: 5rem;
     }
     .flex-1 {
         margin-top: 7rem;
@@ -223,8 +246,12 @@
         width: 30rem;
         font-size: 2em;
     }
-    .h2-center h2 {
+    .h2-center {
+        width: 100%;
+        background-color: rgb(255, 78, 78);
         padding: 4rem;
+    }
+    .h2-center h2 {
         color: white;
         font-size: 3em;
     }
