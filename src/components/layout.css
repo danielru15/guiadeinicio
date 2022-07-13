@@ -20,12 +20,12 @@
 }
 .h2-center h2{
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     
 }
 .h2-center .small {
-    font-size: 1.6em;
+    font-size: 1.4rem;
 }
 .video {
     width: 100%;
