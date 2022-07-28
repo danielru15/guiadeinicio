@@ -10,7 +10,7 @@ const Marketing = () => {
   return (
     <Layout>
         <main className="body">
-            <Baner titulo={'e. comers'}/>
+            <Baner titulo={'e-commers'}/>
             <iframe  id="vd" className="video" src="https://www.youtube.com/embed/ycLBPzfwlIw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
             <div className="blanco">
                 <h2>INDUCCIÓN</h2>
