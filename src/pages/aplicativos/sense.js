@@ -7,7 +7,8 @@ const Sense = () => {
     <Layout>
         <main className="body">
             <Baner titulo={'Sense'}/>
-           
+            <a href="https://sensenow.io/home" className='button' target={"_blank"} rel="noreferrer">Login</a>
+            <br />
            <iframe className="video" src="https://www.youtube.com/embed/_NQv-jq9Xjo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe> 
            <div className='plan-educativo'>
                 <h2>CANALES SUGERIDOS</h2>

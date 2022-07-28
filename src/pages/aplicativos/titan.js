@@ -12,7 +12,7 @@ const Mindhub= () => {
     <Layout>
         <main className="body">
             <Baner titulo={'titan'}/>
-           
+            
            <iframe className="video" src={`https://www.youtube.com/embed/KJxtFOMVRHU`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe> 
             
             
