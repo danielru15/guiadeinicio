@@ -20,7 +20,7 @@ const Indices = () => {
                 <h2>Como crear nuestra cuenta EN DERIV (BROKER) y enlazarla al MT5?</h2>
                 <a href="https://record.binary.com/_qKzG7FPV9x-6tyDIijdDK2Nd7ZgqdRLk/1/" className='button'>Abrir cuenta</a>
                 </div>
-                <iframe className="video" src="https://www.youtube.com/embed/bmzNVbtxmtg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="video" src="https://www.youtube.com/watch?v=yXRD3sM5LKU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div> 
               <div className="negro" data-aos="fade-up">
                 <h2>Como depositar en Deriv (BROKER)</h2>
