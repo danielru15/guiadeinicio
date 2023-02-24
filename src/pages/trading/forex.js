@@ -3,8 +3,17 @@ import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Swal from 'sweetalert2'
 const Forex = () => {
+  setTimeout(function(){
+    Swal.fire({
+      title: '¡Cuidado te registras en un link falso!',
+      text:'Te recomendamos hacer click en abrir cuenta de forma segura.',
+    showConfirmButton: false,
+    footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://fwd.cx/d49o1slVuk1N" >Abrir cuenta</a></button>'
+    })
+
+},1000)
   useEffect(() => {
     AOS.init({duration: 1500,
     easy:'ease-in-out'})

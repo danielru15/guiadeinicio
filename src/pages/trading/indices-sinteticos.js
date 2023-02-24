@@ -1,10 +1,20 @@
 import React, { useEffect } from 'react'
 import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
+import Swal from 'sweetalert2'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Indices = () => {
+  setTimeout(function(){
+    Swal.fire({
+    title: '¡Cuidado te registras en un link falso!',
+    text:'Te recomendamos hacer click en abrir cuenta de forma segura.',
+    showConfirmButton: false,
+    footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://record.binary.com/_qKzG7FPV9x-6tyDIijdDK2Nd7ZgqdRLk/1/" >Abrir cuenta de forma segura</a></button>'
+    })
+
+},1000)
   useEffect(() => {
     AOS.init({duration: 1500,
     easy:'ease-in-out'})
