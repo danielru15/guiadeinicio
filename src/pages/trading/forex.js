@@ -7,8 +7,8 @@ import Swal from 'sweetalert2'
 const Forex = () => {
   setTimeout(function(){
     Swal.fire({
-      title: '¡Cuidado te registras en un link falso!',
-      text:'Te recomendamos hacer click en abrir cuenta de forma segura.',
+      title: '¡Regístrate aquí!',
+      text:'Lo primero que debes hacer antes de ver todo el contenido es registrarte en Libertex para poder operar este mercado',
     showConfirmButton: false,
     footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://fwd.cx/d49o1slVuk1N" >Abrir cuenta</a></button>'
     })

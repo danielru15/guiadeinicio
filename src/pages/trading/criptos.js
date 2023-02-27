@@ -8,8 +8,8 @@ import Swal from 'sweetalert2'
 const Criptos = () => {
   setTimeout(function(){
     Swal.fire({
-      title: '¡Cuidado te registras en un link falso!',
-      text:'Te recomendamos hacer click en abrir cuenta de forma segura.',
+      title: '¡Regístrate aquí!',
+      text:'Lo primero que debes hacer antes de ver todo el contenido es registrarte en Binance para poder operar este mercado',
     showConfirmButton: false,
     footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://accounts.binance.com/es-LA/register?ref=FGEUS97W" >Abrir cuenta</a></button>'
     })

@@ -8,8 +8,8 @@ import 'aos/dist/aos.css';
 const Indices = () => {
   setTimeout(function(){
     Swal.fire({
-    title: '¡Cuidado te registras en un link falso!',
-    text:'Te recomendamos hacer click en abrir cuenta de forma segura.',
+    title: '¡Regístrate aquí!',
+    text:'Lo primero que debes hacer antes de ver todo el contenido es registrarte en Deriv para poder operar este mercado',
     showConfirmButton: false,
     footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://record.binary.com/_qKzG7FPV9x-6tyDIijdDK2Nd7ZgqdRLk/1/" >Abrir cuenta de forma segura</a></button>'
     })
