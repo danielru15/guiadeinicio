@@ -30,11 +30,10 @@ const Indices = () => {
                 <h2>Como crear nuestra cuenta EN DERIV (BROKER) y enlazarla al MT5?</h2>
                 <a href="https://record.binary.com/_qKzG7FPV9x-6tyDIijdDK2Nd7ZgqdRLk/1/" className='button'>Abrir cuenta</a>
                 </div>
-                <iframe className="video" src="https://www.youtube.com/embed/yXRD3sM5LKU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="video" src="https://www.youtube.com/embed/8Lx4gxj-9Ps" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div> 
               <div className="negro" data-aos="fade-up">
-                <h2>Como depositar en Deriv (BROKER)</h2>
-                <iframe className="video" src="https://www.youtube.com/embed/S186V3duA3w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <h2>Como depositar en Deriv (BROKER) Explicado en el video de arriba</h2>
               </div>
               <div className="blanco">
                 <h2>Como tomar señales de índices sintéticos</h2>

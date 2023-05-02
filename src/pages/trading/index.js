@@ -27,6 +27,10 @@ const Traiding = () => {
             */}
             <div className='tiposMercado'>
                 <h2 data-aos="fade-left">TIPOS DE MERCADOS</h2>
+                <div className="negro">
+                <h2>Escoge tu mercado</h2>
+                <iframe className="video" src="https://www.youtube.com/embed/H8db8_EaH40" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
                 <div className='flex-1' data-aos="fade-up">
                 <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/drive-d75a7.appspot.com/o/IMG_2803%20(1).JPG?alt=media&token=2d0ea9fb-05ee-49c7-b450-770016c44fcf" alt="" />
