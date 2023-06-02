@@ -11,7 +11,7 @@ const Criptos = () => {
       title: '¡Regístrate aquí!',
       text:'Lo primero que debes hacer antes de ver todo el contenido es registrarte en Binance para poder operar este mercado',
     showConfirmButton: false,
-    footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://accounts.binance.com/es-LA/register?ref=FGEUS97W" >Abrir cuenta</a></button>'
+    footer:'<button role="button" class="SwalBtn1 customSwalBtn" tabindex="0"><a href="https://accounts.binance.info/register?ref=FGEUS97W" >Abrir cuenta</a></button>'
     })
 
 },1000)
@@ -29,7 +29,7 @@ const Criptos = () => {
               <div className='blanco'>
               <div className='flex-center'>
               <h2>CONOCIENDO BINANCE</h2>
-                <a href="https://accounts.binance.com/es-LA/register?ref=FGEUS97W" className='button'>Abrir cuenta</a>
+                <a href="https://accounts.binance.info/register?ref=FGEUS97W" className='button'>Abrir cuenta</a>
                 </div>
                 <iframe className="video" src="https://www.youtube.com/embed/rsRWhRBNyKc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
               </div>
