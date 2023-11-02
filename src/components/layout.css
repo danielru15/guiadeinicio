@@ -193,14 +193,21 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.negro {
+.negro , .negroreverse{
     width: 100%;
     padding:4rem 1.5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .negro h2 {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.negroreverse h2 {
     color: white;
     margin-bottom: 2rem;
     text-align: center;
@@ -222,6 +229,10 @@ padding: 10px 32px;
 }
 
 @media screen and (min-width: 768px) {
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .Baner {
         font-size: 3rem;
     }
@@ -262,12 +273,29 @@ padding: 10px 32px;
         align-items: center;
         padding:5rem 3rem;
     }
+    .negroreverse {
+        width: 100%;
+        display: flex ;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        padding:5rem 3rem;
+    }
     .negro .video {
         width: 40rem;
         height: 25rem;
         
     }
+    .negroreverse .video {
+        width: 40rem;
+        height: 25rem;
+        
+    }
     .blanco h2 , .negro h2 {
+        width: 30rem;
+        font-size: 2em;
+    }
+    .negroreverse h2 {
         width: 30rem;
         font-size: 2em;
     }

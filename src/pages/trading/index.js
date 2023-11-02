@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect} from 'react'
 import Baner from '../../components/Baner'
 import Layout from '../../components/layout'
 import { Link } from 'gatsby'
@@ -30,6 +30,10 @@ const Traiding = () => {
                 <div className="negro">
                 <h2>Escoge tu mercado</h2>
                 <iframe className="video" src="https://www.youtube.com/embed/H8db8_EaH40" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="negroreverse">
+                <h2>Como copiar y pegar en nuestras apps</h2>
+                <iframe className="video" src="https://www.youtube.com/embed/gEmUNyUNyCE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
                 <div className='flex-1' data-aos="fade-up">
                 <div>
