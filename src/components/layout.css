@@ -261,6 +261,7 @@ padding: 10px 32px;
         flex-direction: row;
         padding: 5rem 3rem;
     }
+    
     .blanco .video {
         width: 40rem;
         height: 25rem;
@@ -294,6 +295,10 @@ padding: 10px 32px;
     .blanco h2 , .negro h2 {
         width: 30rem;
         font-size: 2em;
+    }
+    .blanco p {
+        line-height: 1.7;
+        text-align: center;
     }
     .negroreverse h2 {
         width: 30rem;

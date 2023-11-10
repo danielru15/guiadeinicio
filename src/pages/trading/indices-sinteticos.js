@@ -31,7 +31,11 @@ const Indices = () => {
                 <a href="https://record.binary.com/_qKzG7FPV9x-6tyDIijdDK2Nd7ZgqdRLk/1/" className='button'>Abrir cuenta</a>
                 </div>
                 <iframe className="video" src="https://www.youtube.com/embed/H7KhegGycS4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                
               </div> 
+              <div className='blanco'>
+                <p>Deriv ofrece derivados complejos, como opciones y contratos por diferencias (""CFD""). Estos productos pueden no ser adecuados para todos los clientes, y su negociación supone un riesgo para usted. Por favor, asegúrese de que comprende los siguientes riesgos antes de operar con productos Deriv: a) puede perder parte o la totalidad del dinero que invierta en la operación, b) si su operación implica la conversión de divisas, los tipos de cambio afectarán a sus beneficios y pérdidas. Nunca debe operar con dinero prestado o con dinero que no pueda permitirse. </p>
+              </div>
               <div className="negro" data-aos="fade-up">
                 <h2>Como depositar en Deriv (BROKER) Explicado en el video de arriba</h2>
               </div>
